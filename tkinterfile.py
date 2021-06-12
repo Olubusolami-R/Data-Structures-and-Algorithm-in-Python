@@ -28,8 +28,8 @@ class mygui:
         
         tkinter.mainloop()
     def display(self):
-        self.name='Sogunle Olubusolami R.'
-        self.address='A1,OGD H/E,Asero,Abeokuta'
+        self.name='Roman'
+        self.address='World'
 
         self.nameVar.set(self.name)
         self.addVar.set(self.address)
