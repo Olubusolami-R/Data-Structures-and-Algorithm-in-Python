@@ -2,7 +2,7 @@ def pairs_with_sum(self, sum_val):
     cur1=self.head
     cur2=self.head
     strlist=[]
-    #checkDict=dict()
+    
     while cur1:
       cur2=cur1
       while cur2:
