@@ -1,0 +1,24 @@
+def integer_square_root(k):
+  low=0
+  high=k
+  if(k==0):
+    return 0
+
+  if(k==1):
+    return 1
+  
+  while(low<=high):
+
+    mid=(low+high)//2
+
+    sq=mid*mid
+
+    if(sq>k):
+      high=mid-1
+
+    elif(sq<k):
+      low=mid+1
+      closest=mid
+    else:
+      return mid
+  return closest
