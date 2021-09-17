@@ -1,0 +1,11 @@
+def recursive_multiply(x, y):
+  if y<=0 :
+    return 0
+  if x<=0:
+    return 0
+  if x>y:
+    num=y-1
+    return x + recursive_multiply(x,num)
+  else:
+    num=x-1
+    return y + recursive_multiply(num,y)
